@@ -1,20 +1,74 @@
+# Alpha_Docs Studio
 
-<img width="512" height="512" alt="app_icon_512" src="https://github.com/user-attachments/assets/e5220091-68a4-4c2c-ab3a-7a1522c91214" />
+![Status](https://img.shields.io/badge/Status-Phase%201%20Prototype-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-0078D6.svg)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
+![PySide6](https://img.shields.io/badge/GUI-PySide6%20%2F%20Qt-green.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+Alpha_Docs Studio is a high-performance desktop productivity environment designed exclusively for **Windows 10 / 11**. It unifies an interactive paged word processor, a syntax-highlighted code editor, and a dual-mode AI assistant within a responsive, hardware-accelerated interface.
 
+---
 
+## Key Features
 
+### Paged Document Engine
+- Paginated document layout with dynamic margin rulers.
+- Real-time page thumbnails and visual filmstrip jump navigation.
+- Integrated spellchecking and custom caret styles.
+- Export pipeline for AST-driven Markdown, HTML5, and PDF document publishing.
 
-PHASE_1
-** Alpha_Docs Studio** by Alpha_Tech is an enterprise-grade desktop productivity suite built with PySide6, merging a paged word processor, a multi-tab code editor, and an integrated dual-mode AI copilot into a hardware-accelerated glassmorphic workspace.
+### Multi-Tab Code Workspace
+- Code editing powered by syntax highlighting across Python, JavaScript, C++, Rust, JSON, and HTML.
+- Contrast-guarded dark and light display modes.
+- Code reformatting, tab indentation management, and inline line numbering.
 
-### Core Capabilities
+### Dual-Mode AI Copilot
+- Collapsible contextual assistant pane featuring Document and Code modes.
+- Configurable prompt directives and quick-insert buffer actions.
 
-* **High-Performance Document Engine:** Delivers a paginated canvas with live margin rulers, customizable carets (I-Beam, Thick Bar, Block, Underline), inline spellchecking, and a live multi-page filmstrip navigator for visual jump-navigation.
-* **Multi-Tab Code Workspace:** Features multi-language syntax highlighting powered by Pygments (Python, JavaScript, C++, Rust, HTML/CSS, JSON), per-tab background customization, code formatting, and contrast-guarded themes—guaranteeing zero character loss across both dark and light modes like GitHub Light.
-* **Dual-Mode AI Copilot:** A contextual assistant housed in a collapsible, draggable splitter pane. Features dedicated Document and Code Modes, custom directive prompt pills configured in Settings, and one-click code extraction and buffer insertion.
-* **Alpha Command Dock & Telemetry HUD:** Anchored by a 44-bar audio visualizer synchronized to procedural focus soundscapes (432Hz Solfeggio, Low-Pass Rain, Brownian Deep Space, and Lo-Fi Rhodes Drone). Displays live typing velocity (WPM), word/character tallies, and active page metrics.
-* **Dynamic Glassmorphism & Custom Theme Studio:** Combines frosted-glass surfaces, tactile 3D hover elevation, and 8 built-in palettes. The integrated Custom Palette Studio allows users to personalize primary backgrounds, surface tones, and accent glows with persistent session caching.
-* **Output Registry & Multi-Format Exporter:** Provides pre-built templates for brochures, research reports, and business documentation, alongside quick-access draft recovery and AST-driven export to PDF, Markdown, and HTML5.
+### Alpha Telemetry & Focus Audio Engine
+- Embedded procedural focus audio generator (ambient white noise, rain, and binaural soundscapes).
+- Dynamic 44-bar audio frequency visualizer.
+- Live typing velocity tracking (WPM), word counters, and active page metrics.
 
-Engineered for deep focus and developer agility, AlphaTech combines tactile desktop responsiveness with modern writing and coding tools.
+### Theme Engine & Personalization
+- 8 preconfigured dark/light palettes.
+- Integrated Theme Studio for custom background tints, accent glows, and surface styling.
+
+---
+
+## System Requirements
+
+- **Operating System:** Windows 10 (version 21H2 or later) or Windows 11 (64-bit)
+- **Processor:** 64-bit multi-core CPU
+- **Memory:** 4 GB RAM minimum (8 GB recommended)
+- **Python:** Version 3.10 or newer
+
+---
+
+## Dependencies & Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/cli-io-2025/Alpha_Docs.git
+   cd Alpha_Docs
+   ```
+
+2. **Install Required Libraries**
+   ```bash
+   pip install PySide6 pygments pyspellchecker
+   ```
+
+3. **Launch Application**
+   ```bash
+   python Alpha_Docs/main.py
+   ```
+
+---
+
+## License
+
+This software is released under the **MIT License**.
+
+Developed by the Architect behind [TechGarden.Online](https://techgarden.online).
