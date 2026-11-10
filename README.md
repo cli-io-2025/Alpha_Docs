@@ -1,3 +1,7 @@
+<img width="512" height="512" alt="app_icon_512" src="https://github.com/user-attachments/assets/4c8e9e5f-5cfa-49c7-87f5-34e8df72f967" />
+
+
+
 PHASE_1
 ** Alpha_Docs Studio** by Alpha_Tech is an enterprise-grade desktop productivity suite built with PySide6, merging a paged word processor, a multi-tab code editor, and an integrated dual-mode AI copilot into a hardware-accelerated glassmorphic workspace.
 
