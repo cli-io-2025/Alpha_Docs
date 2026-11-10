@@ -1,4 +1,6 @@
-<img width="512" height="512" alt="app_icon_512" src="https://github.com/user-attachments/assets/4c8e9e5f-5cfa-49c7-87f5-34e8df72f967" />
+
+<img width="509" height="433" alt="image" src="https://github.com/user-attachments/assets/5b4f56ae-fd86-4fbd-9e16-3ce592a59adc" />
+
 
 
 
