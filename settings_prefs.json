@@ -1,0 +1,11 @@
+{
+  "server_url": "",
+  "api_key": "",
+  "default_model": "",
+  "general_prefs": {
+    "Auto-save output documents": true,
+    "Show tool-call trace in side panel": true,
+    "Enable streaming responses": true,
+    "Send anonymous usage metrics": false
+  }
+}

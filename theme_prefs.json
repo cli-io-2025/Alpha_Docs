@@ -1,0 +1,11 @@
+{
+  "theme": "Blue",
+  "custom_colors": {
+    "accent": "#e91e63",
+    "bg_primary": "#1a0010",
+    "bg_secondary": "#2a0020",
+    "text_primary": "#ffeef5"
+  },
+  "code_editor_theme": "Cyberpunk Navy",
+  "code_editor_custom_bg": "#1a1a2e"
+}
